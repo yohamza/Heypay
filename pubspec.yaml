@@ -1,0 +1,65 @@
+name: heypay
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons:
+  gap:
+  fl_chart:
+  flutter_lints: ^2.0.0
+  shared_preferences: ^2.0.12
+  provider: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  fonts:
+    - family: DMSans
+      fonts:
+        - asset: assets/fonts/DMSans_Regular.ttf
+        - asset: assets/fonts/DMSans_Medium.ttf
+        - asset: assets/fonts/DMSans_Bold.ttf
+
+    - family: IconlyBold
+      fonts:
+        - asset: assets/fonts/Iconly_Bold.ttf
+
+    - family: IconlyBroken
+      fonts:
+        - asset: assets/fonts/Iconly_Light.ttf
+
+  assets:
+    - assets/
+    - assets/memoji/
+    - assets/cards/

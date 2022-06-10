@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/hamza/Desktop/development/flutter_projects/Heypay/heypay/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.2"
+    buildFolder="/Users/hamza/Desktop/development/flutter_projects/Heypay/heypay/build/app"
+    bootClassPath="/Users/hamza/Library/Android/sdk/platforms/android-31/android.jar:/Users/hamza/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

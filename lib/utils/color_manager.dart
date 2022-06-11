@@ -15,6 +15,86 @@ class ColorManager {
     return vm.isDark == true ? Styles.greenColor : Styles.accentColor;
   }
 
+  static Color finCardLeftSectionColorByCard(
+      String? cardType, BuildContext context) {
+    switch (cardType) {
+      case 'masterCard':
+        return Styles.masterCardGreen;
+      case 'visa':
+        return Styles.greenColor;
+      case 'paypal':
+        return Styles.paypalOrange;
+      default:
+        return Styles.greenColor;
+    }
+  }
+
+  static Color finCardLeftSectionTextColorByCard(
+      String? cardType, BuildContext context) {
+    switch (cardType) {
+      case 'masterCard':
+        return Colors.black.withOpacity(0.7);
+      case 'visa':
+        return Styles.whiteColor;
+      case 'paypal':
+        return Styles.whiteColor;
+      default:
+        return Styles.whiteColor;
+    }
+  }
+
+  static Color finCardRightSectionTextColorByCard(
+      String? cardType, BuildContext context) {
+    switch (cardType) {
+      case 'masterCard':
+        return Styles.whiteColor;
+      case 'visa':
+        return Colors.black.withOpacity(0.7);
+      case 'paypal':
+        return Colors.black.withOpacity(0.7);
+      default:
+        return Colors.black.withOpacity(0.7);
+    }
+  }
+
+  static Color finCardRightShapeColor(String? cardType, BuildContext context) {
+    if (cardType != null) {
+      if (cardType == 'masterCard') {
+        return Styles.whiteColor;
+      } else {
+        return Styles.greenColor;
+      }
+    } else {
+      return Styles.greenColor;
+    }
+  }
+
+  static Color finCardRightIconColor(String? cardType, BuildContext context) {
+    if (cardType != null) {
+      if (cardType == 'masterCard') {
+        return Colors.black.withOpacity(0.7);
+      } else {
+        return Styles.whiteColor;
+      }
+    } else {
+      return Styles.whiteColor;
+    }
+  }
+
+  static Color finCardRightSectionColorByCard(
+      String? cardType, BuildContext context) {
+    switch (cardType) {
+      case 'masterCard':
+        return Styles.greenColor;
+      case 'visa':
+        return Styles.yellowColor;
+      case 'paypal':
+        return Styles.yellowColor;
+      default:
+        return Styles.yellowColor;
+    }
+  }
+
   static Color cardColor2(BuildContext context) {
     final vm = context.watch<ViewModel>();
     return vm.isDark == true ? Styles.accentColor : Styles.greenColor;
@@ -95,6 +175,16 @@ class ColorManager {
   static Color thumbColor(BuildContext context) {
     final vm = context.watch<ViewModel>();
     return vm.isDark == true ? Styles.blueColor : Styles.greyColor;
+  }
+
+  static Color segmentThumbColor(BuildContext context) {
+    final vm = context.watch<ViewModel>();
+    return vm.isDark == true ? Styles.greyColor : Styles.masterCardGreen;
+  }
+
+  static Color segmentbgColor(BuildContext context) {
+    final vm = context.watch<ViewModel>();
+    return vm.isDark == true ? Styles.blueColor : Styles.whiteColor;
   }
 
   static Color activeColor(BuildContext context) {

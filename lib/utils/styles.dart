@@ -8,6 +8,8 @@ class Styles {
   static Color yellowColor = const Color(0xFFDFE94B);
   static Color greenColor = const Color(0xFF024751);
   static Color greyColor = const Color(0xFFE6E8E8);
+  static Color masterCardGreen = const Color(0xFF7be8b8);
+  static Color paypalOrange = const Color(0xFFFF9E44);
   static Color whiteColor = Colors.white;
   static Color buttonColor = const Color(0xFF4C66EE);
   static Color blueColor = const Color(0xFF4BACF7);

@@ -7,6 +7,7 @@ import 'package:heypay/data/fin_card_model.dart';
 import 'package:heypay/utils/assets.dart';
 import 'package:heypay/utils/color_manager.dart';
 import 'package:heypay/utils/layouts.dart';
+import 'package:heypay/views/add_card.dart';
 import 'package:heypay/views/home.dart';
 import 'package:heypay/widgets/financial_card.dart';
 import 'package:heypay/widgets/my_app_bar.dart';
@@ -63,7 +64,7 @@ class Wallet extends StatelessWidget {
       children: [
         InkWell(
           onTap: () => Navigator.push(
-              context, MaterialPageRoute(builder: (item) => const Home())),
+              context, MaterialPageRoute(builder: (item) => const AddCard())),
           child: Container(
             width: size.width * 0.78,
             padding: const EdgeInsets.symmetric(vertical: 12),

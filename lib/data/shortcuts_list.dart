@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:heypay/utils/iconly/iconly_bold.dart';
+import 'package:heypay/views/send_money.dart';
 
 List shortcutList = [
   {'color': const Color(0xFF026EF4), 'icon': IconlyBold.Download},
   {
     'color': const Color(0xFFFB6A4B),
     'icon': IconlyBold.Upload,
-    // 'route': const SendMoney(),
+    'route': const SendMoney(),
   },
   {
     'color': const Color(0xFF2BB33A),

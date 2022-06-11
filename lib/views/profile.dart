@@ -6,6 +6,7 @@ import 'package:heypay/data/shortcuts_list.dart';
 import 'package:heypay/utils/assets.dart';
 import 'package:heypay/utils/color_manager.dart';
 import 'package:heypay/utils/iconly/iconly_bold.dart';
+import 'package:heypay/utils/styles.dart';
 import 'package:heypay/widgets/custom_list_title.dart';
 
 import '../widgets/my_app_bar.dart';
@@ -72,13 +73,13 @@ class Profile extends StatelessWidget {
               children: [
                 const Gap(60),
                 Center(
-                    child: Text('YOUNESS MOUATASSIM',
+                    child: Text('AMEER HAMZA',
                         style: TextStyle(
                             color: ColorManager.textColor(context),
                             fontSize: 20,
                             fontWeight: FontWeight.bold))),
                 const Gap(10),
-                Text('younes@gmail.com',
+                Text('hamza.io@hotmail.com',
                     style:
                         TextStyle(color: ColorManager.subTextColor(context))),
                 const Gap(25),
@@ -107,13 +108,13 @@ class Profile extends StatelessWidget {
           child: Container(
             height: 100,
             width: 100,
-            decoration: const BoxDecoration(
+            decoration: BoxDecoration(
               shape: BoxShape.circle,
-              color: Color(0xFFE486DD),
+              color: Styles.blueColor,
             ),
             child: Transform.scale(
               scale: 0.55,
-              child: Image.asset(Assets.memoji5),
+              child: Image.asset(Assets.memoji7),
             ),
           ),
         )

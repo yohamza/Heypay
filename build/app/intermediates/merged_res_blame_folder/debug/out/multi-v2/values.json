@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hamza/Desktop/development/flutter_projects/Heypay/heypay/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/hamza/Desktop/development/flutter_projects/heypay/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/hamza/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/res/values/values.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hamza/Desktop/development/flutter_projects/Heypay/heypay/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/hamza/Desktop/development/flutter_projects/heypay/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

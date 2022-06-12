@@ -37,7 +37,7 @@ Widget financialCard(
                     color: ColorManager.finCardLeftSectionTextColorByCard(
                         cardData?.cardType, context)),
               ),
-              const Gap(20),
+              const Gap(15),
               Text('CARD NUMBER',
                   style: TextStyle(
                       color: ColorManager.finCardLeftSectionTextColorByCard(

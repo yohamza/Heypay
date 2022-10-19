@@ -1,16 +1,23 @@
 # heypay
 
-A new Flutter project.
+Fintech App made in Flutter.
 
-## Getting Started
+## Dark Mode
 
-This project is a starting point for a Flutter application.
+<img src="https://i.imgur.com/eS0jcpJ.png" width="30%"></img> ---
+<img src="https://i.imgur.com/os1shkc.png" width="30%"></img> ---
+<img src="https://i.imgur.com/Lt28LJQ.png" width="30%"></img> ---
+<img src="https://i.imgur.com/pXNGVQ4.png" width="30%"></img> ---
+<img src="https://i.imgur.com/vyllqR9.png" width="30%"></img> ---
+<img src="https://i.imgur.com/GgUxv3a.png" width="30%"></img>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Light Mode
+
+<img src="https://i.imgur.com/Ee9rxSa.png" width="30%"></img> ---
+<img src="https://i.imgur.com/uhebEBB.png" width="30%"></img> ---
+<img src="https://i.imgur.com/Jd6oOw8.png" width="30%"></img> ---
+<img src="https://i.imgur.com/VWcQfgH.png" width="30%"></img> ---
+<img src="https://i.imgur.com/ohSUvKR.png" width="30%"></img> ---
+<img src="https://i.imgur.com/UNzKGXa.png" width="30%"></img>
